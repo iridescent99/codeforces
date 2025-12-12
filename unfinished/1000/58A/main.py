@@ -1,6 +1,6 @@
 
 def chat_room(s):
-    ref = 'h1e1l2o1'
+    ref = ['h','e','l','l','o']
     result = ""
     ind = 0
     while ind+1 < len(s):
