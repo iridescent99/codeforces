@@ -16,7 +16,6 @@ def calculate_primes():
 def t_primes(n, arr):
     is_prime = calculate_primes()
     for num in arr:
-        t_prime = False
         is_perfect_square = math.sqrt(num).is_integer()
         if is_perfect_square:
             if is_prime[int(math.sqrt(num))]:
