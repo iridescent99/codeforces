@@ -14,3 +14,4 @@ for _ in range(n):
         db[name] += 1
         print(new_name)
 
+
